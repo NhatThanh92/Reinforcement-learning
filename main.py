@@ -59,15 +59,15 @@ model.save("DDPG_8vars_Y_element_3483")
 
 
 ## Save each 50 episodes ##
-'''
+
 for idx in range(10):
     model = DDPG("MlpPolicy", vec_env, verbose=1, learning_starts=200) # F 
     model.learn(total_timesteps=50, log_interval=10)
     model.save("DDPG_alg_" + str(idx))
 
-'''
+
 ## Test ##
-'''
+
 model = DDPG.load("DDPG_8vars_Y_element", env=env)
 
 obs = env.reset()
@@ -76,4 +76,3 @@ save_action_to_file(action, 'pcesamples_opt.txt')
 
 obs, rewards, dones, info = env.step(action)
 print(rewards)
-'''
