@@ -46,7 +46,7 @@ The RL process iterates continuously, with the agent refining its actions to ach
 
 • **Success Indicator**: Stable, higher rewards (-41) demonstrate effective learning and optimal uterine contraction.
 
-Finally, RL identifies the optimal input parameters within a specified range, with the specific values presented in **Table 2**.
+=> Finally, RL identifies the optimal input parameters within a specified range, with the specific values presented in **Table 2**.
 
 ![image](https://github.com/user-attachments/assets/60c98c8e-1870-40e3-ba24-b10824b4bdfd)
 
