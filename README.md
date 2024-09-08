@@ -18,7 +18,7 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 **Fig 1. Reinforcement learning workflow.**
 
-![image](https://github.com/user-attachments/assets/80809282-4d21-4801-a254-0bbe6f862955)
+![image](https://github.com/user-attachments/assets/79249073-aa82-48b9-acfe-0280a58d8685)
 
 **Fig 2.  Two reference points under uterine contractions simulation.**
 
