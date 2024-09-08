@@ -35,8 +35,11 @@ The RL process iterates continuously, with the agent refining its actions to ach
 
 ## Simulation oucomes:
 • **Episodes**: are trials where the RL agent interacts with the environment (FEBio Studio) by adjusting 8 variables, receiving feedback as a reward after each action.
+
 • **Fluctuations**: (episodes 0 to ~180) show the agent is exploring and learning, testing various parameter combinations, which leads to varying reward levels.
+
 • **Stability**: Around episode 200, rewards stabilize, indicating the agent has learned optimal parameters.
+
 • **Success Indicator**: Stable, higher rewards (-41) demonstrate effective learning and optimal uterine contraction.
 
 ![image](https://github.com/user-attachments/assets/60c98c8e-1870-40e3-ba24-b10824b4bdfd)
