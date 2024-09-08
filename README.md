@@ -1,6 +1,6 @@
 # Optimization of inputs for labor simulation
 
-In this simulation, reinforcement learning (RL) optimizes input parameters to maximize uterine contraction strength by minimizing the distance between two reference points on the tissue. A smaller distance indicates stronger contractions.
+In this simulation, reinforcement learning (RL) optimizes input parameters to maximize uterine contraction strength by minimizing the distance between two reference points on the uterine soft tissue. A smaller distance indicates stronger contractions.
 
 ![image](https://github.com/user-attachments/assets/b236b6dc-0b28-4605-8278-52d67ea95266)
 
