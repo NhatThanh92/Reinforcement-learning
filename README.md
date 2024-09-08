@@ -2,6 +2,13 @@
 
 In this simulation, reinforcement learning (RL) optimizes input parameters to maximize uterine contraction strength by minimizing the distance between two reference points on the tissue. A smaller distance indicates stronger contractions.
 
+![image](https://github.com/user-attachments/assets/b236b6dc-0b28-4605-8278-52d67ea95266)
+
+**Fig 1. The material parameters in FEBio.**
+
+![image](https://github.com/user-attachments/assets/bc81385e-4aec-4ca9-9396-dbdd522da7a0)
+
+Table 1: Parameters for training from literature review 
 ![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
 
 **Fig 1.  Two reference points in uterine contraction simulation.**
