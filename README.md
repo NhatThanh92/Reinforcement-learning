@@ -10,7 +10,7 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 | c1 (MPa)        | c2 (MPa)        | c3 (MPa)        | c4 (MPa)        | c5 (MPa)        | Lamda_max (λ)    | Bulk modulus (K) (MPa) | [Ca²⁺]₁ for smooth muscle [μM] |
 |-----------------|-----------------|-----------------|-----------------|-----------------|------------------|-------------------------|--------------------------------|
-| 0.01 ± 1        | 0 ± 0.45        | 0.1 ± 2.9       | 17.2 ± 108.3    | 0.85 ± 1.58     | 1.02 ± 1.12      |     0.4 ± 1             | 1 ± 12                         |
+| 0.01 ± 1        | 0 ± 0.45        |   0.1 ± 2.9         | 17.2 ± 108.3    | 0.85 ± 1.58       | 1.02 ± 1.12      |     0.4 ± 1             | 1 ± 12                         |
 
 
 ![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
