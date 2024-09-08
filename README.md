@@ -52,6 +52,9 @@ The RL process iterates continuously, with the agent refining its actions to ach
 
 **Table 2. Parameters for training from literature review and optimal parameters from Reinforcement learning.** 
 
-![image](https://github.com/user-attachments/assets/3636f62f-b920-46cb-9622-a280fc69105a)
+| c1 (MPa)    | c2 (MPa)   | c3 (MPa)    | c4 (MPa)    | c5 (MPa)    | λ_max  | Bulk Mod. (K) (MPa) | [Ca²⁺]₁ (μM) |
+|:-----------:|:----------:|:-----------:|:-----------:|:-----------:|:------:|:-------------------:|:-------------:|
+| 0.01 ± 1    | 0 ± 0.45   | 0.1 ± 2.9   | 17.2 ± 108.3| 0.85 ± 1.58 | 1.02 ± 1.12 | 0.4 ± 1             | 1 ± 12        |
+| 0.08    | 0.3   | 0.1    | 17.2 | 0.93 | 1.09 | 0.41        | 10   |
 
 
