@@ -2,9 +2,9 @@
 
 In this simulation, reinforcement learning (RL) optimizes input parameters to maximize uterine contraction strength by minimizing the distance between two reference points on the tissue.
 
-**Reinforcement Learning Workflow:**
+## Reinforcement Learning Workflow:
 
-•	**Agent**: The agent, driven by a neural network or DDPG (Deep Deterministic Policy Gradient), acts as the decision-maker. It modifies simulation parameters or material properties (actions) within the range of 8 variables. The agent learns by interacting with the environment and receiving feedback.
+•	**Agent**: The agent, driven by a neural network or DDPG (Deep Deterministic Policy Gradient), acts as the decision-maker. It modifies simulation parameters or material properties (actions) within the range of 8 variables (Table 1). The agent learns by interacting with the environment and receiving feedback.
 
 •	**Environment**: FEBio, which simulates the labor process with active contraction using the Mooney-Rivlin model. It receives input actions from the agent and provides the current state and reward.
 
@@ -20,6 +20,18 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 ![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
 
-**Fig 2.  Two reference points under uterine contractions simulation.**
+**Fig 2.  Two reference points in uterine contraction simulation.**
 
 The RL process iterates continuously, with the agent refining its actions to achieve optimal outcomes.
+
+## Simulation oucomes:
+• **Episodes**: are trials where the RL agent interacts with the environment (FEBio Studio) by adjusting 8 variables, receiving feedback as a reward after each action.
+• **Fluctuations**: (episodes 0 to ~180) show the agent is exploring and learning, testing various parameter combinations, which leads to varying reward levels.
+• **Stability**: Around episode 200, rewards stabilize, indicating the agent has learned optimal parameters.
+• **Success Indicator**: Stable, higher rewards demonstrate effective learning and optimal uterine contraction.
+
+![image](https://github.com/user-attachments/assets/60c98c8e-1870-40e3-ba24-b10824b4bdfd)
+** Fig 3. 
+![image](https://github.com/user-attachments/assets/3636f62f-b920-46cb-9622-a280fc69105a)
+
+**Table 1. Parameters for training from literature review and optimal parameters from Reinforcement learning.** 
