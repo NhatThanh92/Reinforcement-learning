@@ -8,8 +8,11 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 **Table 1: Parameters for training from literature review.** 
 
-![image](https://github.com/user-attachments/assets/bc81385e-4aec-4ca9-9396-dbdd522da7a0)
-
+![image](https://github.com/user-attachments/assets/26cde34b-ef19-482c-b7c1-959f3350ab62)
+| Left Align | Center Align | Right Align |
+|:-----------|:-------------:|------------:|
+| Text        | Text          | Text        |
+| Text        | Text          | Text        |
 
 ![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
 
