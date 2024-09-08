@@ -21,7 +21,7 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 ## Reinforcement Learning Workflow:
 
-•	**Agent**: The agent, driven by a neural network or DDPG (Deep Deterministic Policy Gradient), acts as the decision-maker. It modifies simulation parameters or material properties (actions) within the range of 8 variables (Table 1). The agent learns by interacting with the environment and receiving feedback.
+•	**Agent**: The agent, driven by a neural network or DDPG (Deep Deterministic Policy Gradient), acts as the decision-maker. It modifies simulation parameters or material properties (actions) within the range of 8 variables (**Table 1**). The agent learns by interacting with the environment and receiving feedback.
 
 •	**Environment**: FEBio, which simulates the labor process with active contraction using the Mooney-Rivlin model. It receives input actions from the agent and provides the current state and reward.
 
@@ -45,6 +45,8 @@ The RL process iterates continuously, with the agent refining its actions to ach
 • **Stability**: Around episode 200, rewards stabilize, indicating the agent has learned optimal parameters.
 
 • **Success Indicator**: Stable, higher rewards (-41) demonstrate effective learning and optimal uterine contraction.
+
+Finally, RL identifies the optimal input parameters within a specified range, with the specific values presented in **Table 2**.
 
 ![image](https://github.com/user-attachments/assets/60c98c8e-1870-40e3-ba24-b10824b4bdfd)
 
