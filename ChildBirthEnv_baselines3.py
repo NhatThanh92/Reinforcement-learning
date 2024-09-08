@@ -18,8 +18,8 @@ class childBirth_Env(gym.Env):
         self.action_size = 8
         self.observation_size = 2
         self.episode_counter = 0
-        action_low = np.array([0.01, 0, 0.1, 17.2, 0.85, 1.02, 0.4, 1])
-        action_high = np.array([1, 0.45, 2.9, 108.3, 1.58, 1.12, 1, 10])
+        action_low = np.array([0.01, 0, 0.1, 16.4, 0.85, 1.02, 0.34, 1])
+        action_high = np.array([1, 0.45, 2.9, 108.3, 1.58, 1.12, 1, 12])
 
         #self.action_space = spaces.Discrete(1) # [0,1,10] action
         self.action_space = spaces.Box(low = action_low, high = action_high, shape =(self.action_size, ), dtype=np.float32) # action ??
