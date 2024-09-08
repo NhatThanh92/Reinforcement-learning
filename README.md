@@ -57,4 +57,26 @@ The RL process iterates continuously, with the agent refining its actions to ach
 | 0.01 ± 1    | 0 ± 0.45   | 0.1 ± 2.9   | 17.2 ± 108.3| 0.85 ± 1.58 | 1.02 ± 1.12 | 0.4 ± 1             | 1 ± 12        |
 | <span style="color:red">0.08</span> | 0.3   | 0.1    | 17.2 | 0.93 | 1.09 | 0.41        | 10   |
 
+<table>
+  <tr>
+    <th>c1 (MPa)</th>
+    <th>c2 (MPa)</th>
+    <th>c3 (MPa)</th>
+    <th>c4 (MPa)</th>
+    <th>c5 (MPa)</th>
+    <th>λ_max</th>
+    <th>Bulk Mod. (K) (MPa)</th>
+    <th>[Ca²⁺]₁ (μM)</th>
+  </tr>
+  <tr style="color:red;">
+    <td>0.01 ± 1</td>
+    <td>0 ± 0.45</td>
+    <td>0.1 ± 2.9</td>
+    <td>17.2 ± 108.3</td>
+    <td>0.85 ± 1.58</td>
+    <td>1.02 ± 1.12</td>
+    <td>0.4 ± 1</td>
+    <td>1 ± 12</td>
+  </tr>
+</table>
 
