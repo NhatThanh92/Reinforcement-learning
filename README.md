@@ -1,6 +1,11 @@
 # Optimization of inputs for labor simulation
 
-In this simulation, reinforcement learning (RL) optimizes input parameters to maximize uterine contraction strength by minimizing the distance between two reference points on the tissue.
+In this simulation, reinforcement learning (RL) optimizes input parameters to maximize uterine contraction strength by minimizing the distance between two reference points on the tissue. A smaller distance indicates stronger contractions.
+
+![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
+
+**Fig 1.  Two reference points in uterine contraction simulation.**
+
 
 ## Reinforcement Learning Workflow:
 
@@ -16,11 +21,7 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 ![image](https://github.com/user-attachments/assets/ebab7f89-8803-42b4-98c3-469ac28623ed)
 
-**Fig 1. Reinforcement learning workflow.**
-
-![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
-
-**Fig 2.  Two reference points in uterine contraction simulation.**
+**Fig 2. Reinforcement learning workflow.**
 
 The RL process iterates continuously, with the agent refining its actions to achieve optimal outcomes.
 
@@ -28,10 +29,12 @@ The RL process iterates continuously, with the agent refining its actions to ach
 • **Episodes**: are trials where the RL agent interacts with the environment (FEBio Studio) by adjusting 8 variables, receiving feedback as a reward after each action.
 • **Fluctuations**: (episodes 0 to ~180) show the agent is exploring and learning, testing various parameter combinations, which leads to varying reward levels.
 • **Stability**: Around episode 200, rewards stabilize, indicating the agent has learned optimal parameters.
-• **Success Indicator**: Stable, higher rewards demonstrate effective learning and optimal uterine contraction.
+• **Success Indicator**: Stable, higher rewards (-41) demonstrate effective learning and optimal uterine contraction.
 
 ![image](https://github.com/user-attachments/assets/60c98c8e-1870-40e3-ba24-b10824b4bdfd)
-** Fig 3. 
+
+**Fig 3. Reward Progression Across Episodes in RL Optimization.**
+
 ![image](https://github.com/user-attachments/assets/3636f62f-b920-46cb-9622-a280fc69105a)
 
 **Table 1. Parameters for training from literature review and optimal parameters from Reinforcement learning.** 
