@@ -6,13 +6,14 @@ In this simulation, reinforcement learning (RL) optimizes input parameters to ma
 
 **Fig 1. The material parameters in FEBio.**
 
+**Table 1: Parameters for training from literature review.** 
+
 ![image](https://github.com/user-attachments/assets/bc81385e-4aec-4ca9-9396-dbdd522da7a0)
 
-Table 1: Parameters for training from literature review 
+
 ![noba](https://github.com/user-attachments/assets/f30ed19a-5bea-4c72-9cfe-04cc00be3825)
 
-**Fig 1.  Two reference points in uterine contraction simulation.**
-
+**Fig 2.  Two reference points in uterine contraction simulation.**
 
 ## Reinforcement Learning Workflow:
 
@@ -28,7 +29,7 @@ Table 1: Parameters for training from literature review
 
 ![image](https://github.com/user-attachments/assets/ebab7f89-8803-42b4-98c3-469ac28623ed)
 
-**Fig 2. Reinforcement learning workflow.**
+**Fig 3. Reinforcement learning workflow.**
 
 The RL process iterates continuously, with the agent refining its actions to achieve optimal outcomes.
 
@@ -40,8 +41,10 @@ The RL process iterates continuously, with the agent refining its actions to ach
 
 ![image](https://github.com/user-attachments/assets/60c98c8e-1870-40e3-ba24-b10824b4bdfd)
 
-**Fig 3. Reward Progression Across Episodes in RL Optimization.**
+**Fig 4. Reward Progression Across Episodes in RL Optimization.**
+
+**Table 2. Parameters for training from literature review and optimal parameters from Reinforcement learning.** 
 
 ![image](https://github.com/user-attachments/assets/3636f62f-b920-46cb-9622-a280fc69105a)
 
-**Table 1. Parameters for training from literature review and optimal parameters from Reinforcement learning.** 
+
